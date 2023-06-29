@@ -1,4 +1,14 @@
-** PENJELASAN CLIENT.PY **
+
+# Chatting App with GUI (Python)
+
+Sebuah aplikasi chatting dengan tampilan GUI dan menggunakan bahasa pemograman python.
+
+
+## Penjelasan
+
+* Client
+
+```bash
 
 1. Impor modul:
    - `socket`: Digunakan untuk komunikasi jaringan menggunakan soket.
@@ -24,9 +34,11 @@
 
 4. Membuat objek Client:
    - Membuat objek client dengan menggunakan HOST dan PORT yang telah ditentukan sebelumnya.
+```
 
-** PENJELASAN SERVER.PY **
+* server
 
+```bash
 1. Impor modul:
    - `socket`: Digunakan untuk komunikasi jaringan menggunakan soket.
    - `threading`: Digunakan untuk mengatur thread terpisah untuk klien yang terhubung.
@@ -53,3 +65,44 @@
 8. Membuat objek server:
    - `print("Server telah jalan")`: Menampilkan pesan bahwa server telah berjalan.
    - `receive()`: Memulai menerima koneksi dari klien menggunakan metode `receive()`.
+```
+
+## Usage
+
+* Buka CMD/PowerShell/Terminal
+
+![App Screenshot](https://media.discordapp.net/attachments/1117660142108946462/1123877865583296602/image.png)
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123877975994150983/image.png)
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123877986169536552/image.png)
+
+* Ketik dan input cd D:\Coding\Python\chatting-GUI
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123878623816982568/image.png)
+
+* Sesuaikan D:\Coding\Python\chatting-GUI dengan tempat anda menyimpan file
+
+* Ketik dan input py server.py hingga sesuai pada foto di bawah
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123879129574551573/image.png)
+
+* Buka window/tab baru CMD/Terminal/PowerShell
+
+* Ketik dan input cd D:\Coding\Python\chatting-GUI
+
+* Sesuaikan D:\Coding\Python\chatting-GUI dengan tempat anda menyimpan file
+
+* Ketik dan input py client.py maka akan muncul window baru
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123879674360115210/image.png)
+
+* Ketik nama anda, lalu tekan oke
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123880019937210398/image.png)
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123880048462676089/image.png)
+
+* Lakukan step 5 - 9 sekali lagi maka aplikasi chatting anda siap di gunakan
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1117660142108946462/1123880609773781002/image.png)
