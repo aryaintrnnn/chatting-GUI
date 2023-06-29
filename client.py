@@ -16,7 +16,7 @@ class Client:
         msg = tkinter.Tk()
         msg.withdraw()
         
-        self.nickname = simpledialog.askstring("Nickname", "Please choose a nickname", parent=msg)
+        self.nickname = simpledialog.askstring("Nickname", "Silahkan buat Nickname", parent=msg)
         
         self.gui_done = False
         self.running = True
@@ -39,14 +39,14 @@ class Client:
         self.text_area.pack(padx=20, pady=5)
         self.text_area.config(state='disabled')
         
-        self.msg_label = tkinter.Label(self.win, text="Message:", bg="lightgray")
+        self.msg_label = tkinter.Label(self.win, text="Pesan:", bg="lightgray")
         self.msg_label.config(font=("Arial", 12))
         self.msg_label.pack(padx=20, pady=5)
         
         self.input_area = tkinter.Text(self.win, height=3)
         self.input_area.pack(padx=20, pady=5)
         
-        self.send_button = tkinter.Button(self.win, text="Send", command=self.write)
+        self.send_button = tkinter.Button(self.win, text="Kirim", command=self.write)
         self.send_button.config(font=("Arial", 12))
         self.send_button.pack(padx=20, pady=5)
         
